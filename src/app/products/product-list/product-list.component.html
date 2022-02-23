@@ -1,0 +1,11 @@
+<p>products</p>
+<ul *ngFor="let product of products;">
+  <h2>{{product.title}}</h2>
+  <p>{{product.description}}</p>
+
+    <button pButton type="button" label="Share"></button>
+    <button *ngIf="product.notifyMe" pButton type="button" label="Notify Me" style="display: block; margin-top: 1%;"></button>
+
+</ul>
+
+

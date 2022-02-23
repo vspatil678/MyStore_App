@@ -1,0 +1,19 @@
+
+
+::ng-deep .cart-icon ul li:nth-child(2) {
+  position:fixed;
+  left: 90%;
+}
+
+::ng-deep .p-menubar {
+  background: #2196F3;
+  color: #ffffff;
+}
+
+::ng-deep  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: #ffffff;
+}
+
+::ng-deep  .pi-shopping-cart {
+  color: #ffffff;
+}
